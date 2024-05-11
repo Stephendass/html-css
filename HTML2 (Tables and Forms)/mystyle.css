@@ -1,0 +1,16 @@
+    body {
+        background-color: antiquewhite;
+    }
+
+    h2 {
+        color: brown;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    h3 {
+        color: brown;
+    }
+
+    div {
+        color: rgb(255, 0, 0);
+    }
