@@ -28,7 +28,7 @@
             color: rgb(255, 64, 42);
         }
         div h1 ol li {
-            color: rgb(106, 160, 207);
+            color: rgb(238, 21, 173);
         }
         .col1 {
             color: red;
@@ -55,16 +55,22 @@
             background-color: rgb(214, 241, 250);
         }
         .c1 .c2 {
-            color: blue;
+            color: greenyellow;
         }
         #the-one{    
-            color: blue;
+            color: rgb(162, 245, 94);
         }
 
         input[value='Select me']{
+            color: rgb(212, 235, 6);
+        }
+        div>div>.class {
+            color: red;
+        }
+        #the-one > .c1.c2{
             color: blue;
         }
-
+        
     </style>
 </head>
 
@@ -139,6 +145,23 @@
             <input type="button" value="Click Me" title="Click this button">
             <input type="button" value="Select me" title="Click this button to change background color">
         </form>    
+    </div>
+
+    <!-- Select the element with "Select me" and make it blue  -->
+    <div class="some-class">
+        <div id="the-one">
+            <p>Random</p>
+            <div>
+                <p class="c1 c2">Random</p>
+            </div>
+            <p class="c1 c2">Select me</p>
+            <div class="c1 c2">Select me</div>  
+        </div>
+    </div>
+    <div class="some-class">
+        <p class="c1">Random</p>
+        <p class="c2">Random</p>
+        <p class="c1 c2">Random</p>
     </div>
 </body>
 </body>
