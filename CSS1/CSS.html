@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practise CSS</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Element Selector */
+        /* Internal CSS 
+        An internal CSS is used to define a style for a single HTML page.
+        An internal CSS is defined in the <head> section of an HTML page, within a <style> element.
+        */
+        /* Inline CSS 
+        An inline CSS is used to apply a unique style to a single HTML element. (See Line 21)
+        Inline has more priority than using Internal CSS */
+        /* External CSS
+        An external style sheet is used to define the style for many HTML pages.
+        To use an external style sheet, add a link to it in the <head> section of each HTML page */
+        h1 {
+            color: darkgreen;
+        }
+        h2 {
+            color: blue;
+        }
+        li {
+            color: rgb(255, 64, 42);
+        }
+        div h1 ol li {
+            color: rgb(106, 160, 207);
+        }
+        .col1 {
+            color: red;
+        }
+        .col2 {
+            color: blue;
+        }
+        .class1 {
+            color: pink;
+        }
+        .class2 {
+            color: blue;
+        }
+        .class3 {
+            color: orange;
+        }
+        .class4{
+            color: red;
+        }
+        .m1 {
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>I'm a Paragraph.. This is first Paragraph</h1>
+        <h2>I'm a Paragraph.. This is Third Paragraph</h2>
+        <h2 style="color: rgb(250, 4, 4);">I'm a Paragraph.. This is Sec Paragraph</h2> <!--Inline CSS-->
+        <h3>I'm a Paragraph.. This is Fourth Paragraph</h3>
+    </div>
+    <div>
+        <ol>
+            <li>Car</li>
+            <li>Bus</li>
+            <li>Van</li>
+            <li>Auto</li>
+        </ol>
+    </div>
+    <div>
+        <h1>
+            <ol>
+                <li>Train</li>
+                <li>Aeroplane</li>
+            </ol>
+        </h1>
+    </div>
+    <div>
+        <!-- Using class to add CSS properties 
+        Whenever using styles in CSS by class use .className-->
+        <p class="col1">Make me Red</p>
+        <p class="col2">Make me Blue</p>
+        <p class="class1">Make me Pink</p>
+        <p class="class2">Make me blue</p>
+        <p class="class3">Make me Orange</p>
+    </div>
+    <div class="m1 m2">Hi.. Checking Class colors</div>
+    <div class="m1">Make me Blue</div>
+    <div class="m2">Make me Red</div>
+</body>
+</html>
