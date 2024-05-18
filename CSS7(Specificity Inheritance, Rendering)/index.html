@@ -4,8 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .heading{
+            color: tomato;
+        }
+        /* find element having class heading but that element should be h1 */
+        h1.heading{
+            color: blue;
+        }
+        /* id has more specificity */
+        #the-head{
+            color: blueviolet;
+        }
+        h1{
+            color: cyan;
+        }
+    </style>
 </head>
 <body>
-    <h1>Heading</h1>
+    <h1 class="heading" id="the-head">
+        Heading
+    </h1>
 </body>
 </html>
