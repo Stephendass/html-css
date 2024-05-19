@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inheritance</title>
+    <style>
+        section{
+            color: brown;
+            font-size: 40px;
+            border: 2px solid gray;
+        }
+        div{
+            /* color: red; */
+            /* border: 2px solid gray; */
+            background-color: yellow;
+            /* this will be inherited if it can be */
+            border: inherit;
+            /* initial set the property to default value which css provide */
+            color: initial;
+
+        }
+        p{
+            /* color: blue; */
+            /* border: 2px solid gray; */
+            background-color: rgb(132, 243, 132);
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div>
+            I am Div
+        </div>
+        <p>I am P</p>
+    </section>
+</body>
+</html>
