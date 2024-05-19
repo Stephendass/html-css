@@ -19,11 +19,26 @@
         h1{
             color: cyan;
         }
+        /* !Important has more power than Inline selector */
+        h1{
+            color: darkblue !important;
+        }
+        /* find the element having id the-head and element should be h1 */
+        h1#the-head{
+            color: darkred;
+        }
+        /* *-has least specificity */
+        *{
+            color: darkgreen;
+        }
     </style>
 </head>
 <body>
     <h1 class="heading" id="the-head">
         Heading
     </h1>
+    <h2>Heading2</h2>
+    <!-- Inline style has more Priority(Specificity) -->
+    <h3 style="color: aqua;">Heading3</h3>
 </body>
 </html>
