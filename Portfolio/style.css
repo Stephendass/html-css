@@ -1,28 +1,33 @@
 @import 'utilities.css';
+
 :root {
-    --primary: rgb(24,119,242);
+    --primary: rgb(24, 119, 242);
     --bgDark: rgb(17, 17, 17);
     --white: rgb(250, 250, 250);
     --secondary: rgb(0, 59, 50);
     --bgLight: #f2e8cf;
 
 }
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
 }
+
 header {
     background-color: var(--bgDark);
 }
-header nav .left a{
+
+header nav .left a {
     color: var(--white);
     text-decoration: none;
     margin-right: 2rem;
     text-transform: uppercase;
     transition: all .2s ease;
 }
+
 header nav .left a:hover {
     color: var(--primary);
 }
@@ -36,62 +41,77 @@ header nav {
     padding: 0 15px;
     margin: 0 auto;
 }
+
 .hero {
     padding-top: 2rem;
     padding-bottom: 3rem;
 }
+
 .hero .left img {
     width: 400px;
     border-radius: 4rem;
-    margin-left: 10rem;;
+    margin-left: 10rem;
+    ;
 }
 
 .hero .right {
     color: var(--white);
 }
+
 .hero .right h6 {
     font-size: 1.6rem;
     color: var(--primary);
     margin-bottom: 0.5rem;
 }
+
 .hero .right h1 {
     font-size: 4rem;
     font-weight: 100;
     line-height: 1.2;
     margin-bottom: 2rem;
 }
+
 .hero .right h1 span {
     color: var(--primary);
 }
+
 .hero .right p {
     line-height: 1.9;
     margin-bottom: 2rem;
 }
-section  {
+
+section {
     padding: 6rem;
 }
+
 section.about h1 {
     margin-bottom: 1rem;
     font-size: 1.6rem;
     font-weight: 600;
 }
-section.about h1 span{
+
+section.about h1 span {
     color: var(--primary);
 }
+
 section.about h3 {
     font-size: 1rem;
     margin-bottom: 1rem;
     font-weight: 600;
 }
+
 section.about p {
     font-family: 'Lato', sans-serif;
     color: var(--secondary);
     line-height: 1.9rem;
     margin-bottom: 2rem;
+    text-align: justify;
 }
+
 section.about .socials {
     display: flex;
 }
+
 
 section.about .socials a {
     display: flex;
@@ -101,16 +121,17 @@ section.about .socials a {
     margin-right: 2rem;
     border-radius: 50%;
 }
-section.services{
+section.services {
     background-color: rgb(7, 7, 7);
-    color: aqua;
 }
-.service-head{
+
+.service-head {
     text-align: center;
     margin-bottom: 1rem;
     line-height: 0.5rem;
     color: var(--primary);
 }
+
 section .para {
     color: var(--white);
     font-family: 'lato', sans-serif;
@@ -120,24 +141,27 @@ section .para {
     font-weight: 400;
 }
 
-section .status{
+section .status {
     color: rgb(250, 249, 252);
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     font-size: 50px;
     text-align: center;
 }
+
 h2 {
     margin-bottom: 2rem;
     color: var(--primary);
     font-size: 2.5em;
     font-weight: 300;
 }
-#contact-form{
+
+#contact-form {
     max-width: 1208px;
     max-width: 75.5em;
     margin: 0 auto;
 }
+
 .form_input {
     width: 100%;
     padding: 0.5em;
@@ -147,13 +171,15 @@ h2 {
     outline: none;
     font-size: 1rem;
 }
-label>span{
+
+label>span {
     font-size: 1.2rem;
 }
+
 .contact_heading {
     color: var(--primary);
 }
+
 .submit_button {
     background-color: var(--primary);
 }
-
