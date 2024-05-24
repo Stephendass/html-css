@@ -23,8 +23,6 @@
     border-color: pink;
     background-color: black;
     color: var(--primary);
-
-
   }
 
 header {
@@ -134,7 +132,7 @@ section.about .socials a {
 }
 
 section.services {
-    background-color: rgb(7, 7, 7);
+    background-color: rgb(2, 2, 2);
 }
 
 .service-head {
