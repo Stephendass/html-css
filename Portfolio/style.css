@@ -23,6 +23,10 @@
     border-color: pink;
     background-color: black;
     color: var(--primary);
+    border-radius: 5px;
+  }
+  .back-to-top:hover{
+    color: #b7f806;
   }
 
 header {
@@ -71,6 +75,7 @@ header nav {
     font-size: 1.6rem;
     color: var(--primary);
     margin-bottom: 0.5rem;
+    text-shadow: 2px 2px 25px blue;
 }
 
 .hero .right h1 {
@@ -129,6 +134,9 @@ section.about .socials a {
     width: 35px;
     margin-right: 2rem;
     border-radius: 50%;
+}
+section.about .socials a :visited{
+    color: red;
 }
 
 section.services {
@@ -192,4 +200,9 @@ label>span {
 
 .submit_button {
     background-color: var(--primary);
+    border-radius: 8px;
+}
+.submit_button:hover{
+    /* color: rgb(118, 118, 211); */
+    background-color: rgb(172, 172, 211);
 }
