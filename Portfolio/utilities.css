@@ -39,6 +39,7 @@
 .btn-primary:hover {
     background: var(--primary);
     color: var(--secondary);
+    font-size: large;
 }
 
 .flex-1 {
@@ -49,9 +50,11 @@
     background: transparent;
     color: var(--primary);
     border-color: var(--primary);
+    border-radius: 14px;
 }
 
 .btn-sec:hover {
     background: var(--primary);
     color: var(--secondary);
+    font-size: large;
 }
